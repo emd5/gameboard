@@ -24,6 +24,11 @@ public class GameBoard {
         return (Cell)cells.get (index);
     }
 
+    public int getCellIndex(Cell cell){
+
+        return cells.indexOf(cell);
+
+    }
 
 
 }
