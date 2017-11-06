@@ -1,11 +1,15 @@
-import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+/**
+ * This class test the game
+ *
+ * @author Liz Mahoney
+ * @version 1.0
+ */
 public class GameMasterTest {
-
 
     private static GameMaster master;
 
@@ -21,7 +25,6 @@ public class GameMasterTest {
 
         master.setNumberOfPlayers (6);
         assertEquals (6, master.getNumberOfPlayers());
-
     }
 
     @Test
@@ -33,8 +36,8 @@ public class GameMasterTest {
         master.movePlayer(0,2);
         assertEquals ("Blue 2", player.getPosition ().getName ());
 
-        //master.movePlayer(0,3);
-        //assertEquals ("Green 2", player.getPosition ().getName ());
+        master.movePlayer(0,3);
+        assertEquals ("Blue 2", player.getPosition ().getName ());
     }
 
     @Test
@@ -49,7 +52,7 @@ public class GameMasterTest {
         assertEquals ("Blue 1", player.getPosition ().getName ());
     }
 
-    //    @Test
+//    @Test
 //    public void testSingleton(){
 //
 //        GameMaster instance1 = GameMaster.instance();

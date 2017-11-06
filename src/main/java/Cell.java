@@ -1,4 +1,7 @@
 
+/**
+ * This class creates and retrieves the player for each cell
+ */
 public class Cell {
 
     private String name;
