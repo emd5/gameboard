@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 
+/**
+ * This class sets up the gameboord with the players
+ *
+ * @author Liz Mahoney
+ * @version 1.0
+ */
 public class GameMaster {
 
     private ArrayList players;
