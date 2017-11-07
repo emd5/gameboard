@@ -1,7 +1,13 @@
+/*Liz Mahoney
+ *11/6/17
+ * GameMaster.java
+ * This class sets up the players for the board game
+ */
+
 import java.util.ArrayList;
 
 /**
- * This class sets up the gameboord with the players
+ * This class sets up the players for the board game
  *
  * @author Liz Mahoney
  * @version 1.0
@@ -12,7 +18,6 @@ public class GameMaster {
     private GameBoard gameBoard;
 
     private static GameMaster singleton;
-
 
 
     public static GameMaster instance(){
@@ -55,6 +60,12 @@ public class GameMaster {
         return gameBoard;
     }
 
+    /**
+     * Moves the player to a cell on the game board
+     *
+     * @param playerIndex -current index of the player
+     * @param diceRoll
+     */
     public void movePlayer(int playerIndex, int diceRoll){
 
         Player player = getPlayer(playerIndex);

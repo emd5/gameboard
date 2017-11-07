@@ -1,6 +1,11 @@
+/*Liz Mahoney
+ *11/6/17
+ * Cell.java
+ * This class is a representation of a Cell.
+ */
 
 /**
- * This class test the game
+ * This class is a representation of a Cell.
  *
  * @author Liz Mahoney
  * @version 1.0

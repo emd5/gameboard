@@ -1,5 +1,5 @@
 /**
- * This class test the game
+ * THis class is a representation of a Go cell
  *
  * @author Liz Mahoney
  * @version 1.0

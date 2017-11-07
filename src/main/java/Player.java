@@ -1,6 +1,11 @@
+/*Liz Mahoney
+ *11/6/17
+ * Player.java
+ * This class creates an instance of the player
+ */
 
 /**
- * This class test the game
+ * This class creates an instance of the player
  *
  * @author Liz Mahoney
  * @version 1.0

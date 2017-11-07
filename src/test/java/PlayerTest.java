@@ -1,3 +1,9 @@
+/*Liz Mahoney
+ *11/6/17
+ * Cell.java
+ * This class test the players position
+ */
+
 import junit.framework.TestCase;
 
 public class PlayerTest extends TestCase {

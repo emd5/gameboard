@@ -18,12 +18,10 @@ public class GameBoardTest extends TestCase{
 
         GameBoard gameBoard = new GameBoard ();
 
-        assertEquals (0, gameBoard.getCellNumber());
-
         Cell cell = new Cell();
         gameBoard.addCell(cell);
 
-        assertEquals (1,gameBoard.getCellNumber());
+        assertEquals (2,gameBoard.getCellNumber());
     }
 
     public void testFirstCell(){

@@ -1,5 +1,13 @@
+/*
+ * Liz Mahoney
+ * 11/6/17
+ * SimpleGameBoard.java
+ *  This inherits the Gameboard Class to run the game board
+ */
+
+
 /**
- * This class test the game
+ * This inherits the Gameboard Class to run the game
  *
  * @author Liz Mahoney
  * @version 1.0
