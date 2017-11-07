@@ -1,6 +1,9 @@
 
 /**
- * This class creates and retrieves the player for each cell
+ * This class test the game
+ *
+ * @author Liz Mahoney
+ * @version 1.0
  */
 public class Cell {
 

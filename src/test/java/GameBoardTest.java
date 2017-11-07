@@ -1,10 +1,11 @@
 import junit.framework.TestCase;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
-
-
+/**
+ * This class test the game
+ *
+ * @author Liz Mahoney
+ * @version 1.0
+ */
 public class GameBoardTest extends TestCase{
 
     public GameBoardTest(String name)
